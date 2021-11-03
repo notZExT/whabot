@@ -19,4 +19,4 @@ def bot():
     return str(resp) # Return the resp
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(host='localhost', port=5000, debug=False)
